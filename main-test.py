@@ -1,9 +1,9 @@
 # Import the Add function, and assert that it works correctly.
-from main import Add
+from main import doCalculate
 
 def TestAdd():
-        assert Add(2,3) == 5
-        print("Add Function works correctly")
+        assert doCalculate(2,3) == 5
+        print("Calculate functions works")
 
 if __name__ == '__main__':
         TestAdd()

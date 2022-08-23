@@ -1,8 +1,8 @@
-def Add(a, b):
+def printWelcomeMessage():
+        print("A simple python program !!!")
+
+def doCalculate(a, b):
         return a + b
-        
-def SayHello():
-        print("sup world from srcmake")
 
 if __name__ == '__main__':
-        SayHello()
+        printWelcomeMessage()
